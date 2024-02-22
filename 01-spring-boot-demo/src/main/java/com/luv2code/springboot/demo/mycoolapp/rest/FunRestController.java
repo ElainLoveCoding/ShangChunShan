@@ -12,4 +12,9 @@ public class FunRestController {
     public String sayHello() {
         return "Hello World!";
     }
+
+    @GetMapping("/first/endpoint")
+    public String tryFirst() {
+        return "This is Elaine's first try!";
+    }
 }
